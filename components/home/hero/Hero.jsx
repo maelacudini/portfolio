@@ -28,7 +28,7 @@ export default function Hero() {
               loading="eager"
               priority
               alt="studio"
-              src={"/general/studio.svg"}
+              src={"/general/STUDIO.svg"}
               width={1000}
               height={100}
             />
