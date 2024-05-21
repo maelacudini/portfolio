@@ -1,0 +1,32 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100lvh;
+  background-color: #0a0a0a;
+  z-index: 100;
+
+  .main {
+    height: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 5lvh 5lvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .close {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem 2rem;
+      width: 100%;
+    }
+  }
+}

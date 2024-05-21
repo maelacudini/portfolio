@@ -1,0 +1,26 @@
+.description {
+  padding: 10lvh 5lvw;
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .inner {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .core {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+
+      p {
+        flex-grow: 1;
+        flex-basis: calc(50% - 0.5rem);
+        text-transform: uppercase;
+      }
+    }
+  }
+}
