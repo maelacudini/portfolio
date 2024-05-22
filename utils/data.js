@@ -1,6 +1,6 @@
 export const links = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
+    { name: 'Pricing', href: '/pricing' },
     { name: 'Work', href: '/work' },
     { name: 'Say Hello', href: 'mailto:' },
 ]
@@ -12,14 +12,13 @@ export const socials = [
     { name: 'Gmail', href: 'mailto:' },
 ]
 
-export const core = [
-    'Creativity',
-    'Passion',
-    'Professionalism',
-    'Integrity',
-    'Attention to Detail',
-    'Customer Focus',
-    'Innovation'
+export const services = [
+    'Photo Editing',
+    'Album Creation',
+    'Weddings and Cerimonies',
+    'Portfolio',
+    'Marketing',
+    'Social Media'
 ];
 
 export const projects = [
@@ -59,4 +58,3 @@ export const projects = [
         image: ['/images/img5.jpg']
     }
 ];
-

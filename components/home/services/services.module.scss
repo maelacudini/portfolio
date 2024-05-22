@@ -1,0 +1,30 @@
+.services {
+  padding: 5lvh 5lvw;
+  margin: 0 auto;
+  max-width: 90rem;
+  display: flex;
+  flex-wrap: wrap;
+
+  .col:nth-child(1) {
+    flex-basis: 30%;
+  }
+
+  .col:nth-child(2) {
+    flex-grow: 1;
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 5lvh;
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem;
+
+      p {
+        flex-grow: 1;
+        flex-basis: 20rem;
+      }
+    }
+  }
+}

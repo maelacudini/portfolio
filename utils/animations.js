@@ -11,10 +11,32 @@ export const pagetrans = {
     exit: {
         y: '0%',
         transition: {
-            duration: 0.75, delay: 0.25, ease: [0.33, 1, 0.68, 1]
+            duration: 0.75, ease: [0.33, 1, 0.68, 1]
         }
     }
 }
+
+export const headeranim = {
+    initial: {
+        y: '-100%',
+        transition: {
+            duration: 0.75, ease: [0.33, 1, 0.68, 1]
+        }
+    },
+    animate: {
+        y: '0%',
+        transition: {
+            duration: 0.75, ease: [0.33, 1, 0.68, 1]
+        }
+    },
+    exit: {
+        y: '-100%',
+        transition: {
+            duration: 0.75, ease: [0.33, 1, 0.68, 1]
+        }
+    }
+}
+
 
 export const navtrans = {
     initial: {
@@ -39,9 +61,9 @@ export const titletrans = {
         y: '100%',
     },
     animate: i => ({
-        y: '0%',
+        y: '-5%',
         transition: {
-            duration: 0.75, ease: [0.33, 1, 0.68, 1], delay: i * 0.05
+            duration: 0.25, ease: [0.33, 1, 0.68, 1], delay: i * 0.01
         }
     }),
 }

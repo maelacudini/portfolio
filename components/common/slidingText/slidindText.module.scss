@@ -1,0 +1,20 @@
+.slidingText {
+  padding: 5lvh 0;
+  background-color: #c8ff54;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+
+  .slider {
+    white-space: nowrap;
+    position: relative;
+
+    p {
+      &:nth-of-type(2) {
+        position: absolute;
+        left: 100%;
+        top: 0;
+      }
+    }
+  }
+}

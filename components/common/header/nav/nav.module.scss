@@ -5,27 +5,24 @@
   right: 0;
   bottom: 0;
   height: 100lvh;
-  background-color: #0a0a0a;
-  z-index: 100;
+  background-color: #f8f8f8;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   .main {
-    height: 100%;
-    max-width: 120rem;
-    margin: 0 auto;
-    padding: 5lvh 5lvw;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    .close {
-      display: flex;
-      justify-content: flex-end;
-    }
+    align-items: flex-end;
+    max-width: 90rem;
+    width: 100%;
+    height: 100%;
+    padding: 5lvh 5lvw;
 
     .links {
       display: flex;
       flex-wrap: wrap;
-      gap: 1rem 2rem;
+      gap: 0.5rem 2rem;
       width: 100%;
     }
   }

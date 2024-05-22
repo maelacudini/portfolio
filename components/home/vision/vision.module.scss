@@ -1,0 +1,25 @@
+.vision {
+  background-color: #0f0f0f;
+  color: #fff;
+  min-height: 100lvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .main {
+    padding: 5lvh 5lvw;
+    max-width: 90rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.word {
+  position: relative;
+  margin-right: 12px;
+  margin-top: 12px;
+  .shadow {
+    position: absolute;
+    opacity: 20%;
+  }
+}

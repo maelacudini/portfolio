@@ -14,9 +14,6 @@ export default function Nav({ setOpen }) {
       className={style.nav}
     >
       <div className={style.main}>
-        <div className={style.close}>
-          <p onClick={() => setOpen(false)}>CLOSE</p>
-        </div>
         <div className={style.links}>
           {links.map((link, i) => (
             <CustomLink

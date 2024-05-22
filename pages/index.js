@@ -1,7 +1,10 @@
-import Hero from "@/components/home/hero/Hero";
 import Head from "next/head";
-import Custom404 from "./400";
-import Error from "./500";
+import Hero from "@/components/home/hero/Hero";
+import Details from "@/components/home/details/Details";
+import Gallery from "@/components/home/gallery/Gallery";
+import Services from "@/components/home/services/Services";
+import Vision from "@/components/home/vision/Vision";
+import SlidingText from "@/components/common/slidingText/SlidingText";
 
 export default function Home() {
   return (
@@ -53,6 +56,11 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
+        <Details />
+        <Gallery />
+        <Services />
+        <Vision />
+        <SlidingText />
       </main>
     </>
   );

@@ -1,29 +1,22 @@
 .footer {
-  background-color: #000;
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
+  position: relative;
+  background-color: #0f0f0f;
+  z-index: -1;
 
   .main {
-    max-width: 120rem;
+    width: 100%;
+    min-height: 100lvh;
+    max-width: 90rem;
     margin: 0 auto;
     padding: 10lvh 5lvw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10rem;
 
     .hello {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: flex-end;
+      flex-direction: column;
       gap: 2rem;
-
-      div {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-      }
     }
 
     .end {
