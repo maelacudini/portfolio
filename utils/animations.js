@@ -63,7 +63,7 @@ export const titletrans = {
     animate: i => ({
         y: '-5%',
         transition: {
-            duration: 0.25, ease: [0.33, 1, 0.68, 1], delay: i * 0.01
+            duration: 0.15, ease: [0.33, 1, 0.68, 1], delay: i * 0.01
         }
     }),
 }

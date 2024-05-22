@@ -27,8 +27,13 @@ export default function Footer() {
     <motion.footer style={{ y }} ref={ref} className={style.footer}>
       <div className={style.main}>
         <div className={style.hello}>
-          <Title paragraph={"Say hello"} classes={"h1 white"} />
-          <CustomLink link={contact} classes={"h3 gray"} />
+          <div>
+            <Title paragraph={"Say hello"} classes={"h1 white"} />
+            <CustomLink link={contact} classes={"h3 gray"} />
+          </div>
+          <button className="btn" onClick={backtotop}>
+            Back to top
+          </button>
         </div>
 
         <div className={style.end}>
