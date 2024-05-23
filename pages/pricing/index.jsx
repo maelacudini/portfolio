@@ -71,10 +71,6 @@ export default function Pricing() {
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        {/* <meta name="twitter:site:id" content="1467726470533754880" />
-            <meta name="twitter:creator" content="@nextjs" />
-            <meta name="twitter:creator:id" content="1467726470533754880" /> 
-        */}
         <meta name="twitter:title" content="Studio" />
         <meta
           name="twitter:description"

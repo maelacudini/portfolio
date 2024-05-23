@@ -14,22 +14,20 @@ export default function Gallery() {
 
   return (
     <section ref={ref} className={style.gallery}>
-      {projects.map((project, i) => {
-        return (
-          <div key={i} className={style.container}>
-            <motion.div style={{ y }} className={style.image}>
-              <Image
-                alt={project.title}
-                src={project.image[0]}
-                height={800}
-                width={800}
-                loading="lazy"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              />
-            </motion.div>
-          </div>
-        );
-      })}
+      {projects.map((project, i) => (
+        <div key={i} className={style.container}>
+          <motion.div style={{ y }} className={style.image}>
+            <Image
+              alt={project.title}
+              src={project.image[0]}
+              height={800}
+              width={800}
+              loading="lazy"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          </motion.div>
+        </div>
+      ))}
     </section>
   );
 }
