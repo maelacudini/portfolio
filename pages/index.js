@@ -40,7 +40,7 @@ export default function Home() {
         <meta property="og:url" content="https://portfolio-sigma-seven-55.vercel.app" />
         <meta property="og:site_name" content="Studio" />
         <meta property="og:locale" content="en_US" />
-        <meta property="og:image:url" content="https://portfolio-sigma-seven-55.vercel.app/opengraph-image.png" />
+        <meta property="og:image" content="https://portfolio-sigma-seven-55.vercel.app/opengraph-image.png" />
         <meta property="og:image:width" content="1800" />
         <meta property="og:image:height" content="1600" />
         <meta property="og:image:alt" content="Studio" />

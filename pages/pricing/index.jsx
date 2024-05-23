@@ -50,19 +50,19 @@ export default function Pricing() {
           href="https://portfolio-sigma-seven-55.vercel.app/manifest.json"
         />
 
-        <meta property="og:title" content="Studio" />
+        <meta property="og:title" content="Pricing" />
         <meta
           property="og:description"
           content="Photography Studio, based in Rome, since 2012."
         />
         <meta
           property="og:url"
-          content="https://portfolio-sigma-seven-55.vercel.app"
+          content="https://portfolio-sigma-seven-55.vercel.app/pricing"
         />
         <meta property="og:site_name" content="Studio" />
         <meta property="og:locale" content="en_US" />
         <meta
-          property="og:image:url"
+          property="og:image"
           content="https://portfolio-sigma-seven-55.vercel.app/opengraph-image.png"
         />
         <meta property="og:image:width" content="1800" />
