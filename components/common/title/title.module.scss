@@ -5,9 +5,6 @@
 
   .word {
     display: flex;
-
-    .letter {
-      overflow: hidden;
-    }
+    overflow: hidden;
   }
 }

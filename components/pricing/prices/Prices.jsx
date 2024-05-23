@@ -6,7 +6,7 @@ import { slideup } from "@/utils/animations";
 
 export default function Prices() {
   let paragraph =
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et itaque eum ad doloribus quibusdam commodi nesciunt assumenda suscipit ea ab.";
+    "Discover Our Coolest Packages and Unbeatable Prices Tailored to Capture Your Special Moments!";
   return (
     <section className={style.prices}>
       <div className={style.col}>
@@ -15,8 +15,8 @@ export default function Prices() {
       <div className={style.col}>
         <Title classes={"h2"} paragraph={paragraph} />
         <p className="h4 gray">
-          * Prices may be different from occasion to occasion. Dolores veniam
-          tenetur aspernatur eaque aliquam expedita nesciunt repudiandae.
+          * Prices May Vary Based on Session Length, Location, and Specific
+          Requirements – Contact Us for a Customized Quote.
         </p>
         <div className={style.list}>
           {prices.map((price, i) => (

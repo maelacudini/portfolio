@@ -8,7 +8,7 @@ import Line from "@/components/common/line/Line";
 export default function Details() {
   const container = useRef(null);
   const paragraph =
-    "At Primary, we believe exceptional branding is possible without the wait. So we created Brand Sprints: timeless branding in just one week.";
+    "Welcome to Our Photography Studio – Where Creativity Meets Professionalism. We Specialize in Capturing Your Most Cherished Moments with Artistic Precision and Personalized Service.";
 
   return (
     <section ref={container} className={style.details}>

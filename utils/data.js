@@ -13,8 +13,8 @@ export const socials = [
 ]
 
 export const people = [
-    { name: 'Marta Stewart', social: [{ name: 'twitter', href: '' }], avatar: '/avatars/marta.jpg', role: 'Photographer', phone: '+12 345 678 9012' },
-    { name: 'Lorenzo Berlini', social: [{ name: 'twitter', href: '' }], avatar: '/avatars/lorenzo.jpg', role: 'Editor', phone: '+09 876 543 2109' },
+    { name: 'Marta Stewart', social: [{ name: 'Twitter', href: '' }, { name: 'Instagram', href: '' }], avatar: '/avatars/marta.jpg', role: 'Photographer', phone: '+12 345 678 9012' },
+    { name: 'Lorenzo Berlini', social: [{ name: 'Twitter', href: '' }], avatar: '/avatars/lorenzo.jpg', role: 'Editor', phone: '+09 876 543 2109' },
 ]
 
 export const services = [

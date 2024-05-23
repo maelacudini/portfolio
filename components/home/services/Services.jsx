@@ -9,7 +9,7 @@ import { slideup } from "@/utils/animations";
 export default function Services() {
   const container = useRef(null);
   const paragraph =
-    "On your marks. Get set. Go-to-market. Quickly launch your company past the competition.";
+    "Bringing Your Moments to Life Through the Lens – Exceptional Photography for Every Occasion.";
 
   return (
     <section className={style.services}>
@@ -19,10 +19,11 @@ export default function Services() {
       <div className={style.col}>
         <Title classes={"h2"} paragraph={paragraph} />
         <p className="gray h4">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
-          officia accusamus fugiat veritatis aut repellendus at. Quae, debitis.
-          Dolores, dolor soluta quo quibusdam doloribus similique obcaecati et
-          dignissimos quaerat officia.
+          At Our Studio, We Believe Every Picture Tells a Unique Story. Our
+          Passionate Team of Photographers Is Dedicated to Providing
+          High-Quality, Customized Photography Services That Perfectly Capture
+          the Essence of Your Special Moments. From Family Portraits to
+          Corporate Events, We Are Here to Make Your Memories Last Forever.
         </p>
         <div className={style.row}>
           {services.map((service, i) => (

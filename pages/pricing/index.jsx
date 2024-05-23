@@ -82,13 +82,13 @@ export default function Pricing() {
         />
       </Head>
       <main className="main">
-        <Hero paragraph={"Something about super cool pricing"} />
+        <Hero paragraph={"High-Quality Photography for the best price"} />
         <Reviews />
         <Prices />
         <Contact />
         <SlidingText
           paragraph={
-            "Here maybe write something about the good prices or whatever"
+            "Experience Exceptional Photography at Competitive Rates – Perfect Packages to Fit Every Occasion and Budget."
           }
         />
       </main>

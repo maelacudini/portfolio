@@ -4,7 +4,7 @@ import { useRef } from "react";
 
 export default function Vision() {
   const paragraph =
-    "From understanding our ambitions, to crafting the direction, to executing with speed, Primary nailed it from the beginning. We are in love with all of it.";
+    "Our Vision is to Transform Every Moment into a Masterpiece, Capturing the Authenticity and Emotion of Each Experience. We Strive to Continuously Innovate and Elevate the Art of Photography, Delivering Unparalleled Quality and Personalization to Every Client.";
   const words = paragraph.split(" ");
   const container = useRef(null);
   const { scrollYProgress } = useScroll({

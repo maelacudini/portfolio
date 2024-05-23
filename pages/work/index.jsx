@@ -79,7 +79,7 @@ export default function Work() {
         />
       </Head>
       <main className="main">
-        <Hero paragraph={"Something about my job or whatever"} />
+        <Hero paragraph={"Explore Our Stunning Visuals"} />
         <Gallery />
       </main>
     </>

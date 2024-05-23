@@ -52,12 +52,12 @@ export default function Home() {
         <meta name="twitter:image" content="https://portfolio-sigma-seven-55.vercel.app/twitter-image.png" />
       </Head>
       <main className="main">
-        <Hero paragraph={'Something about how good i am at this'} />
+        <Hero paragraph={'Your New Favourite Photography Studio'} />
         <Details />
         <Gallery />
         <Services />
         <Vision />
-        <SlidingText paragraph={'Here write something about the services or whatever you want in the homepage'} />
+        <SlidingText paragraph={'Capturing Life\'s Precious Moments and Transforming Them into Timeless Memories'} />
       </main>
     </>
   );
