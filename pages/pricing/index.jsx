@@ -15,6 +15,7 @@ export default function Pricing() {
           content="Photography Studio, based in Rome, since 2012."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#f8f8f8" />
 
         <link rel="shortcut icon" href="/logo.svg" />
         <link rel="icon" href="/logo.svg" />
