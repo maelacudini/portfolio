@@ -12,6 +12,11 @@ export const socials = [
     { name: 'Gmail', href: 'mailto:' },
 ]
 
+export const people = [
+    { name: 'Marta Stewart', social: [{ name: 'twitter', href: '' }], avatar: '/avatars/marta.jpg', role: 'Photographer', phone: '+12 345 678 9012' },
+    { name: 'Lorenzo Berlini', social: [{ name: 'twitter', href: '' }], avatar: '/avatars/lorenzo.jpg', role: 'Editor', phone: '+09 876 543 2109' },
+]
+
 export const services = [
     'Photo Editing',
     'Album Creation',
@@ -56,5 +61,61 @@ export const projects = [
         role: 'Architectural Photographer',
         description: 'Exploring the intricate designs and grandeur of modern and historical architecture through detailed and expansive shots.',
         image: ['/images/img5.jpg']
+    }
+];
+
+export const prices = [
+    {
+        service: 'Portrait Photography',
+        price: '*150, 1 hour',
+        duration: '1 hour'
+    },
+    {
+        service: 'Wedding Photography',
+        price: '*2000, full day',
+        duration: 'Full day'
+    },
+    {
+        service: 'Family Photoshoot',
+        price: '*300, 2 hours',
+        duration: '2 hours'
+    },
+    {
+        service: 'Event Photography',
+        price: '*500, 4 hours',
+        duration: '4 hours'
+    },
+    {
+        service: 'Headshots',
+        price: '*100, 30 min',
+        duration: '30 minutes'
+    }
+];
+
+export const reviews = [
+    {
+        client: 'Jane Smith',
+        description: 'Fantastic experience! The photographer was professional and made us feel at ease. The photos turned out beautiful!',
+        date: '2024-05-01'
+    },
+    {
+        client: 'Michael Johnson',
+        description: 'Great service and amazing quality. I am extremely happy with the portraits. Highly recommended!',
+        date: '2024-04-15'
+    },
+    {
+        client: 'Emily Davis',
+        description: 'The studio has a wonderful atmosphere and the staff are very friendly. The photoshoot was fun and the results were stunning.',
+        date: '2024-04-20'
+    },
+    {
+        client: 'Daniel Brown',
+        description: 'I am very satisfied with the photos. The photographer was creative and captured wonderful moments. Excellent job!',
+        date: '2024-05-05'
+    },
+    {
+        client: 'Sophia Wilson',
+        description: 'Amazing experience! The photographer was very patient and captured beautiful shots. Will definitely come back!',
+        date: '2024-05-10'
     }
 ];

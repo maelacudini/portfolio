@@ -4,14 +4,15 @@
   max-width: 90rem;
   display: flex;
   flex-wrap: wrap;
+  gap: 5lvh;
 
   .col:nth-child(1) {
-    flex-basis: 30%;
+    flex-basis: calc(30% - 5lvh);
   }
 
   .col:nth-child(2) {
     flex-grow: 1;
-    flex-basis: 70%;
+    flex-basis: calc(30% - 5lvh);
     display: flex;
     flex-direction: column;
     gap: 5lvh;
@@ -24,6 +25,7 @@
       p {
         flex-grow: 1;
         flex-basis: 20rem;
+        text-transform: uppercase;
       }
     }
   }

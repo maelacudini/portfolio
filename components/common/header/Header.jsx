@@ -11,10 +11,9 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollY = window.scrollY;
-      const isScrollingUp = currentScrollY < prevScrollY;
-      setShowHeader(isScrollingUp || currentScrollY === 0);
-      setPrevScrollY(currentScrollY);
+      const isScrollingUp = window.scrollY < prevScrollY;
+      setShowHeader(isScrollingUp || window.scrollY === 0);
+      setPrevScrollY(window.scrollY);
       setOpen(false);
     };
     window.addEventListener("scroll", handleScroll);

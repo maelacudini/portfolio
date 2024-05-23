@@ -7,7 +7,7 @@ import Line from "@/components/common/line/Line";
 
 export default function Details() {
   const container = useRef(null);
-  const ph =
+  const paragraph =
     "At Primary, we believe exceptional branding is possible without the wait. So we created Brand Sprints: timeless branding in just one week.";
 
   return (
@@ -21,7 +21,7 @@ export default function Details() {
           <p>DETAILS</p>
         </div>
         <div className={style.col}>
-          <Title classes={"h3"} paragraph={ph} />
+          <Title classes={"h2"} paragraph={paragraph} />
           <Line container={container} />
         </div>
       </div>

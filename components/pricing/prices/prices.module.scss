@@ -1,0 +1,39 @@
+.prices {
+  position: relative;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 5lvh 5lvw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5lvh;
+
+  .col:nth-child(1) {
+    flex-basis: calc(30% - 5lvh);
+  }
+
+  .col:nth-child(2) {
+    flex-grow: 1;
+    flex-basis: calc(70% - 5lvh);
+    display: flex;
+    flex-direction: column;
+    gap: 5lvh;
+
+    .list {
+      display: flex;
+      flex-direction: column;
+
+      .item {
+        border-bottom: 1px solid #00000025;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

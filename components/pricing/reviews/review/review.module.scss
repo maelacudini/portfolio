@@ -1,0 +1,18 @@
+.review {
+  position: absolute;
+  height: 25rem;
+  width: 20rem;
+  border-radius: 2rem;
+  border: 1px solid #00000025;
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

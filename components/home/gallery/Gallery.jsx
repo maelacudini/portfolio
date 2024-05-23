@@ -1,8 +1,8 @@
-import { projects } from "@/utils/data";
 import style from "./gallery.module.scss";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import { projects } from "@/utils/data";
 
 export default function Gallery() {
   const ref = useRef(null);
@@ -21,9 +21,10 @@ export default function Gallery() {
               <Image
                 alt={project.title}
                 src={project.image[0]}
-                height={500}
-                width={500}
+                height={800}
+                width={800}
                 loading="lazy"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </motion.div>
           </div>

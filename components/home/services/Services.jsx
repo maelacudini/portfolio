@@ -8,7 +8,7 @@ import { slideup } from "@/utils/animations";
 
 export default function Services() {
   const container = useRef(null);
-  const ph =
+  const paragraph =
     "On your marks. Get set. Go-to-market. Quickly launch your company past the competition.";
 
   return (
@@ -17,14 +17,20 @@ export default function Services() {
         <p>SERVICES</p>
       </div>
       <div className={style.col}>
-        <Title classes={"h3"} paragraph={ph} />
+        <Title classes={"h2"} paragraph={paragraph} />
+        <p className="gray h4">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+          officia accusamus fugiat veritatis aut repellendus at. Quae, debitis.
+          Dolores, dolor soluta quo quibusdam doloribus similique obcaecati et
+          dignissimos quaerat officia.
+        </p>
         <div className={style.row}>
           {services.map((service, i) => (
             <motion.p
               custom={i + 1}
               variants={slideup}
               initial="initial"
-              animate="animate"
+              whileInView="animate"
               viewport={{ once: false }}
               key={i + service}
             >

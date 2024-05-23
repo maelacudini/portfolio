@@ -31,7 +31,6 @@ body {
   padding: 0;
   background-color: #f8f8f8;
   color: #000000;
-  background-image: url("../public/general/bg-grain.png");
 }
 
 h1,
@@ -92,6 +91,13 @@ small {
 
 .green {
   color: #c8ff54;
+}
+
+.main {
+  background-color: #f8f8f8;
+  color: #000000;
+  position: relative;
+  z-index: 2;
 }
 
 .btn {

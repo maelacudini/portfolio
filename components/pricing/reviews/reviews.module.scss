@@ -1,0 +1,17 @@
+.reviews {
+  background-image: url("../../../public/general/dots.svg");
+  background-repeat: repeat;
+  background-size: 1rem;
+  min-height: 100lvh;
+
+  .main {
+    max-width: 90rem;
+    margin: 0 auto;
+    min-height: 100lvh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+}
