@@ -117,5 +117,10 @@ export const reviews = [
         client: 'Sophia Wilson',
         description: 'Amazing experience! The photographer was very patient and captured beautiful shots. Will definitely come back!',
         date: '2024-05-10'
+    },
+    {
+        client: 'Drag Around!',
+        description: 'Interested in our reviews? Grab the cards and throw them around!',
+        date: '2024-01-01'
     }
 ];
