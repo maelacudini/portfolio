@@ -63,6 +63,13 @@ export default function Footer() {
               <p className="gray">+09 876 543 2109</p>
             </div>
           </div>
+          <div className={style.inner}>
+            <p className="gray">
+              * This project is entirely a product of my imagination and does
+              not represent any real company or entity; any references to
+              people, things, or events are purely coincidental.
+            </p>
+          </div>
         </div>
       </div>
     </motion.footer>
