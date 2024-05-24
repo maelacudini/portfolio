@@ -35,7 +35,7 @@ export default function Work() {
         />
         <link
           rel="canonical"
-          href="https://portfolio-sigma-seven-55.vercel.app"
+          href="https://portfolio-sigma-seven-55.vercel.app/work"
         />
         <link
           rel="alternate"
