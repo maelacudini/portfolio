@@ -24,14 +24,16 @@ export default function Contact() {
             key={i}
             className={style.person}
           >
-            <Image
-              alt="avatar"
-              src={person.avatar}
-              height={100}
-              width={100}
-              className={style.image}
-              loading="lazy"
-            />
+            <div className={style.col}>
+              <Image
+                alt="avatar"
+                src={person.avatar}
+                height={100}
+                width={100}
+                className={style.image}
+                loading="lazy"
+              />
+            </div>
             <div className={style.col}>
               <div className={style.inner}>
                 <p className="h4">{person.name}</p>

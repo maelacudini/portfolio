@@ -1,32 +1,20 @@
 import { projects } from "@/utils/data";
 import style from "./gallery.module.scss";
 import { motion } from "framer-motion";
-import { slideup } from "@/utils/animations";
-import Image from "next/image";
+import TrackCursorImage from "@/components/common/trackCursorImage/TrackCursorImage";
 
 export default function Gallery() {
   return (
     <section className={style.gallery}>
       {projects.map((project, _) =>
         project.image.map((image, i) => (
-          <motion.article
-            className={style.project}
-            variants={slideup}
-            custom={i + 1}
-            initial="initial"
-            animate="animate"
-            viewport={{ once: false }}
-            key={i + project.title}
-          >
-            <Image
+          <motion.article key={i + project.title} className={style.project}>
+            <TrackCursorImage
               alt={project.title}
-              src={image}
               height={1000}
-              width={500}
-              priority={i === 0 && true}
-              loading={i === 0 ? "eager" : "lazy"}
+              width={800}
+              image={image}
             />
-            <p className={style.details}>{project.title}</p>
           </motion.article>
         ))
       )}

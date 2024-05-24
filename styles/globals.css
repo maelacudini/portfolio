@@ -19,6 +19,7 @@
   color: #000;
 }
 
+/*custom classes*/
 * {
   margin: 0;
   padding: 0;
@@ -77,6 +78,7 @@ small {
   color: inherit;
 }
 
+/*general classes*/
 .gray {
   color: #aaaaaa;
 }
@@ -135,7 +137,7 @@ small {
   left: 0;
 }
 
-/*error not found loading*/
+/*error not found*/
 .error,
 .notFound {
   height: 100lvh;

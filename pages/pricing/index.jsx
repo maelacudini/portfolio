@@ -38,7 +38,7 @@ export default function Pricing() {
         />
         <link
           rel="canonical"
-          href="https://portfolio-sigma-seven-55.vercel.app"
+          href="https://portfolio-sigma-seven-55.vercel.app/pricing"
         />
         <link
           rel="alternate"
